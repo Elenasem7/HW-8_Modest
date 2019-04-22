@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+   body { 
+    font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Segoe WP"; */
+  } 
+
+  .wrapper {
+      overflow: hidden;
+  }
+
+  h1 {
+    color: #000000;
+    font-size: 49px;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    margin: 0;
+  }
+  
+  .desc-cart {
+    padding-left: 70px;
+  }
+
+  .hero-title, .hero-subtitle {
+    color: #ffffff;
+    font-size: 31px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .hero-subtitle {
+    font-size: 23px;
+    /* overflow: scroll; */
+  }
+  
+  /* .hero-subtitle::-webkit-scrollbar {
+    display: none;
+  } */
+
+  .title {
+    color: #6f7173;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+  }
+  
+  .subtitle {
+    color: #6f7173;
+    font-weight: 400;
+    line-height: 44.42px;
+  }
+
+  .description {
+    color: #909090;
+    font-weight: 300;
+    line-height: 36px;
+    padding-bottom: 46px;
+  }
+
+  @media (max-width:639px){
+    .hero-title {
+      font-size: 23px;
+    }
+
+    .hero-subtitle {
+      font-size: 18px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 32px;
+    }
+
+    .desc-cart {
+      padding-left: 10px;
+    }
+
+    .subtitle {
+      font-size: 28px;
+    }
+
+    .description {
+      font-size: 17px;
+    }
+  }
+
+  @media (min-width:640px) and
+          (max-width:1199px) {
+    .title {
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 34px;
+  }
+
+  .description {
+    font-size: 17px;
+  }
+}
+
+  @media (min-width:1200px) {
+    .title {
+      padding-left: 168px;
+    }
+
+    .subtitle {
+      font-size: 26px;
+    }
+
+    .section-cart {
+      display: flex;
+      align-items: center;
+    }
+
+    .description {
+      font-size: 15px;
+    }
+  }
