@@ -1,0 +1,38 @@
+.button {
+  display: inline-block;
+  padding: 6px 15px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  border: 2px solid #23b7a4;
+  background-color: #23b7a4;
+}
+
+.button-big {
+  width: 147px;
+  margin-top: 32px;
+  margin-bottom: 62px;
+}
+
+.blue {
+  background-color: #23b7a4;
+  border: 0;
+}
+
+.blue:hover {
+  background-color: #0e7063;
+  border: 0;
+}

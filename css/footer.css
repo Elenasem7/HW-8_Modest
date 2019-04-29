@@ -1,0 +1,37 @@
+.footer {
+  background-color: #3a454d;
+  height: 95px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 19px;
+}
+
+.text-footer {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-right:30px;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.icon-footer {
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-footer:hover {
+  color: #23b7a4;
+}

@@ -1,0 +1,53 @@
+.content {
+    position: relative;
+}
+
+.button-form {
+    width: 555px;
+    height: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -258px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form-cover {
+    padding: 0 30px;
+}
+.card-name {
+    padding-right: 15px;
+}
+
+.name, .mail, .mes {
+    color: #8d8f92;
+    font-family: "Quattrocento Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-left: 7px;
+    padding-top: 30px; 
+}
+
+input {
+    width: 240px;
+    height: 44px;
+    background-color: #eaeef1;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.textarea {
+    width: 495px;
+    height: 159px;
+    background-color: #eaeef1;
+    resize: none;
+    border-radius: 5px;
+    border: 0px;
+}

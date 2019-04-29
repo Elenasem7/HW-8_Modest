@@ -1,0 +1,87 @@
+.section {
+  overflow: hidden;
+}
+
+.section-grey {
+  background: #3a454d;
+  text-align: center;
+}
+
+.section-border {
+  border-bottom: 3px solid #dde1e4;
+}
+
+.section-we-do {
+  margin-bottom: 65px;
+}
+
+
+
+/* WE ARE MODEST */
+
+.content {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.mission {
+  width: 650px;
+  margin-right: 34px;
+}
+
+.mission > p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.goals {
+  width: 460px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  background-color: #23b7a4;
+  padding: 14px;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-description {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.card-title-modest {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.card-desc {
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+/* STAY IN TOUCH */
+
+.map {
+  width: 100%;
+  height: 346px;
+  margin-bottom: 60px;
+}
+
+.info {
+  width: 535px;
+  margin-right: 50px; 
+}

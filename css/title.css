@@ -1,0 +1,57 @@
+.title-flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title, .hero-title {
+  height: 26px;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 85px 0 65px;
+}
+
+.hero-title {
+  padding: 0;
+  color: #ffffff;
+}
+
+.hero-subtitle {
+  color: #ccd0d7;
+  overflow: scroll;
+  height: 60px;
+}
+
+.hero-subtitle::-webkit-scrollbar {
+  display: none;
+}
+
+.title-grey {
+  color: #ffffff;
+}
+
+.border {
+  width: 10px;
+  height: 35px;
+  background-color: #e1e6ea;
+  margin-right: 16px;
+  margin-top: 85px;
+}
+
+.section-grey .border {
+  background-color: #4e5a62;
+}
+
+h3 {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
